@@ -23,18 +23,23 @@ Steps taken to prepare the data:
 - Save processed file – Exported the cleaned dataset to names_processed.csv for later analysis.
 
 ## Findings
-### Unique Names per Year
+### Names per Year
 ![Total Names per Year](Plots/Names_per_Year.png)
+
 ![Unique Names per Year](Plots/Unique_Name_per_Year.png)
 
-### Percent of Top 10 vs Top 1 Names
-![top10-vs-top1](plots/top10_top1.png)
+### Popularity of Top 10 and Top 1 Names
+![Total of Top10 Names per Year](Plots/Total_of_Top_10_Names_per_Year.png)
 
-### Percent of Unisex Names
-![unisex](plots/unisex.png)
+![Percentage of Top10 Names per Year](Plots/Percent_of_Top_10_Names_per_Year.png)
+
+### Usage of Unisex Names
+![Percent of Unisex](Plots/Percent_of_Names_that_were_Unisex.png)
 
 ### Average Length of Top 10 Names
-![avg-length](plots/avg_length.png)
+![avg-length](Plots/Median_Length_of_Names_by_Year.png)
+
+![avg-length](Plots/Median_Length_of_the_Top_10_Names_by_Year.png)
 
 ## Tools Used
 - **Python**: data processing and analysis  
