@@ -4,10 +4,10 @@ An exploration of U.S. baby naming patterns over time, using historical datasets
 
 
 ## Overview
-This project analyzes trends in baby names from 1925 to 2024.  
+This project analyzes trends in baby names over the last 100 years.  
 Key questions:
 - Are parents choosing from a larger pool of names today than in the past?
-- How concentrated are the top 10 and top 1 names each year?
+- How is the popularity of the top 10 names changing each year?
 - How has the usage of unisex names changed over time?
 - Are names getting longer or shorter over the decades?
 
