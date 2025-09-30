@@ -12,7 +12,7 @@ Key questions:
 - Are names getting longer or shorter over the decades?
 
 
-- ## Visualizations
+## Visualizations
 ### Unique Names per Year
 ![unique-names](plots/unique_names.png)
 
