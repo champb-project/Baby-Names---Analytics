@@ -16,11 +16,11 @@ The dataset comes from the U.S. Social Security Administration baby names files 
 Each file contains all registered baby names for a given year, split by gender, along with the number of babies given that name.
 
 Steps taken to prepare the data:
--Load raw files – All yearly text files (yobYYYY.txt) were read in using pandas and glob.
--Add year column – The year was extracted from each filename and stored as 'yob'.
--Combine into one dataset – All yearly data was concatenated into a single DataFrame 'names_df'.
--Quality checks – Verified there were no missing values or duplicate rows.
--Save processed file – Exported the cleaned dataset to names_processed.csv for later analysis.
+- Load raw files – All yearly text files (yobYYYY.txt) were read in using pandas and glob.
+- Add year column – The year was extracted from each filename and stored as 'yob'.
+- Combine into one dataset – All yearly data was concatenated into a single DataFrame 'names_df'.
+- Quality checks – Verified there were no missing values or duplicate rows.
+- Save processed file – Exported the cleaned dataset to names_processed.csv for later analysis.
 
 ## Findings
 ### Unique Names per Year
