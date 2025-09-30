@@ -12,7 +12,7 @@ Key questions:
 - Are names getting longer or shorter over the decades?
 
 
-## Visualizations
+## Findings
 ### Unique Names per Year
 ![unique-names](plots/unique_names.png)
 
@@ -25,7 +25,7 @@ Key questions:
 ### Average Length of Top 10 Names
 ![avg-length](plots/avg_length.png)
 
-## 🛠️ Tools Used
+## Tools Used
 - **Python**: data processing and analysis  
 - **Pandas**: grouping, aggregations  
 - **Seaborn & Matplotlib**: visualizations 
