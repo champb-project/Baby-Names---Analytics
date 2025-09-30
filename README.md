@@ -24,7 +24,8 @@ Steps taken to prepare the data:
 
 ## Findings
 ### Unique Names per Year
-![Total Names per Year](Plots/"Names per Year.png")
+![Total Names per Year](Plots/Names_per_Year.png)
+![Unique Names per Year](Plots/Unique_Name_per_Year.png)
 
 ### Percent of Top 10 vs Top 1 Names
 ![top10-vs-top1](plots/top10_top1.png)
