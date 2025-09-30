@@ -4,7 +4,6 @@ import seaborn as sns
 
 names_df = pd.read_csv(r"C:\Users\Champion\Desktop\DataProjects\names_processed.csv")
 
-"""
 ## Total Names by Year
 total_names = names_df.groupby('yob')['count'].sum().reset_index()
 
@@ -76,7 +75,7 @@ print('TOP 10 Total\n',merged_top.loc[merged_top['yob'].isin([1925, 1975, 2024])
 print('TOP 1 Total\n',merged_top.loc[merged_top['yob'].isin([1925, 1975, 2024]),'top1_total'])
 
 
-## Genedered names and nutrality
+## Gendered names and nutrality
 F_names = names_df[names_df['sex']=='F']
 M_names = names_df[names_df['sex']=='M']
 
@@ -116,7 +115,7 @@ plt.ylabel('Avg. Length of Names')
 plt.xticks(rotation = 90)
 plt.ticklabel_format(style='plain', axis='y')
 plt.show()
-"""
+
 
 #- Average Length of the Top 10 Names
 top10_perYear = names_df.groupby('yob').apply(lambda x: x.nlargest(10,'count')).reset_index(drop=True)
@@ -132,3 +131,4 @@ plt.ylabel('Avg. Length of Names')
 plt.xticks(rotation = 90)
 plt.ticklabel_format(style='plain', axis='y')
 plt.show()
+
