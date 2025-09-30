@@ -15,4 +15,9 @@ for file in files:
     dfs.append(curr_df)
 
 names_df = pd.concat(dfs)
+
+print(names_df.isna().sum())
+print(names_df.duplicated().any())
+print(names_df.shape)
+
 names_df.to_csv('C:/Users/Champion/Desktop/DataProjects/names_processed.csv',index=False)
